@@ -1,0 +1,61 @@
+  .container {
+      background-image: url(../../../docs/img/background_login.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+  }
+  
+  .user-login {
+      width: 300px;
+      height: 400px;
+      background: black;
+      font-family: sans-serif;
+      margin-top: 150px;
+      margin-left: 600px;
+  }
+  
+  .user-login__title {
+      font-size: 25px;
+      color: white;
+      margin-bottom: 50px;
+      text-align: left;
+      margin-right: 150px;
+      margin-left: 20px;
+      line-height: 25px;
+      border-left: 4px solid;
+      border-left-color: yellow;
+      padding-left: 5px;
+  }
+  
+  .user_login__title__div {
+      padding-top: 30px;
+  }
+  
+  .user-login__form-control {
+      margin-bottom: 30px;
+      display: block;
+      background: transparent;
+  }
+  
+  .user-login__form-control input {
+      border: 1px solid white;
+      height: 36px;
+      width: 280px;
+      margin-left: 10px;
+      background: transparent;
+      color: white;
+  }
+  
+  .user-login__submit-button {
+      width: 280px;
+      margin-top: 30px;
+      margin-left: 10px;
+      margin-bottom: 30px;
+  }
+  
+   ::placeholder {
+      color: white;
+      padding-left: 5px;
+  }
